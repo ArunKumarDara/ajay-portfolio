@@ -55,7 +55,7 @@ const Nav = () => {
         </div>
       </nav>
       <nav id="hamburger-nav">
-        <div className="logo">Arun Kumar</div>
+        <div className="logo">Ajay Kumar</div>
         <div className="hamburger-menu">
           <div className="hamburger-icon">
             {menu ? (
