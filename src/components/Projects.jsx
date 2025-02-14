@@ -111,26 +111,6 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          {/* <div className="details-container color-container">
-            <div className="article-container">
-              <img
-                src={reactProjectImage}
-                alt="React-Project"
-                className="project-img"
-              />
-            </div>
-            <h2 className="experience-sub-title project-title">REACT JS</h2>
-            <div className="btn-container">
-              <a href="https://github.com/ArunKumarDara" target="_blank">
-                <button className="btn btn-color-2 project-btn">Github</button>
-              </a>
-              <a href="https://github.com/ArunKumarDara" target="_blank">
-                <button className="btn btn-color-2 project-btn">
-                  Live Demo
-                </button>
-              </a>
-            </div>
-          </div> */}
         </div>
       </div>
       <Link
