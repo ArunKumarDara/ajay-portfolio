@@ -1,6 +1,6 @@
 import linkedInImage from "../assets/linkedin.png";
 import profilePic from "../assets/profile-pic-3.jpg";
-import uiUxDesigner from "../assets/resume.pdf";
+import uiUxDev from "../assets/AjayKumarDaraUiUxResume.pdf";
 
 import { Link } from "react-scroll";
 
@@ -19,7 +19,7 @@ const Profile = () => {
         <h1 className="title">Ajay Kumar</h1>
         <p className="section__text__p2">UI/UX Designer</p>
         <div className="btn-container">
-          <a href={uiUxDesigner} target="_blank" rel="noopener noreferrer">
+          <a href={uiUxDev} target="_blank" rel="noopener noreferrer">
             <button className="btn btn-color-2">View Ressume</button>
           </a>
           <Link

@@ -1,8 +1,8 @@
-import todoList from "../assets/todo-list.jpg";
-import reactProjectImage from "../assets/project-3.png";
 import arrow from "../assets/arrow.png";
 import ecommerce from "../assets/ecommerce.jpg";
 import shopping from "../assets/shopping.jpg";
+import saloon from "../assets/saloon.jpg";
+import hospital from "../assets/hospital.jpg";
 import { Link } from "react-scroll";
 
 const Projects = () => {
@@ -12,6 +12,50 @@ const Projects = () => {
       <h1 className="title">Projects</h1>
       <div className="experience-details-container">
         <div className="about-containers">
+          <div className="details-container color-container">
+            <div className="article-container">
+              <img src={saloon} alt="saloon" className="project-img" />
+            </div>
+            <h2 className="experience-sub-title project-title">Saloon</h2>
+            <div className="btn-container">
+              <a
+                href="https://www.figma.com/design/OKS4qilYWTkSeQeADeLSDV/Billing-%26-Booking-Software?node-id=0-1&m=dev&t=o3bvE6kQkTuqNikc-1"
+                target="_blank"
+              >
+                <button className="btn btn-color-2 project-btn">Figma</button>
+              </a>
+              <a
+                href="https://www.figma.com/design/OKS4qilYWTkSeQeADeLSDV/Billing-%26-Booking-Software?node-id=0-1&m=dev&t=o3bvE6kQkTuqNikc-1"
+                target="_blank"
+              >
+                <button className="btn btn-color-2 project-btn">
+                  Live Demo
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="details-container color-container">
+            <div className="article-container">
+              <img src={hospital} alt="saloon" className="project-img" />
+            </div>
+            <h2 className="experience-sub-title project-title">Hospital</h2>
+            <div className="btn-container">
+              <a
+                href="https://www.figma.com/design/UzQnraA4tvQF45QvYDVEhj/Appointment-Booking-For-Mythili?node-id=0-1&m=dev&t=HwosRM9baGlv29iz-1"
+                target="_blank"
+              >
+                <button className="btn btn-color-2 project-btn">Figma</button>
+              </a>
+              <a
+                href="https://www.figma.com/design/UzQnraA4tvQF45QvYDVEhj/Appointment-Booking-For-Mythili?node-id=0-1&m=dev&t=HwosRM9baGlv29iz-1"
+                target="_blank"
+              >
+                <button className="btn btn-color-2 project-btn">
+                  Live Demo
+                </button>
+              </a>
+            </div>
+          </div>
           <div className="details-container color-container">
             <div className="article-container">
               <img

@@ -30,7 +30,7 @@ const Experiance = () => {
                 <img src={checkMark} alt="Experience icon" className="icon" />
                 <div>
                   <h3>Visual Design</h3>
-                  <p>Basic</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -63,7 +63,7 @@ const Experiance = () => {
                 <img src={checkMark} alt="Experience icon" className="icon" />
                 <div>
                   <h3>Figma</h3>
-                  <p>Intermediate</p>
+                  <p>Advanced</p>
                 </div>
               </article>
               <article>
@@ -91,14 +91,14 @@ const Experiance = () => {
                 <img src={checkMark} alt="Experience icon" className="icon" />
                 <div>
                   <h3>Adobe Photoshop</h3>
-                  <p>Basic</p>
+                  <p>Advanced</p>
                 </div>
               </article>
               <article>
                 <img src={checkMark} alt="Experience icon" className="icon" />
                 <div>
                   <h3>Canva</h3>
-                  <p>Intermediate</p>
+                  <p>Advanced</p>
                 </div>
               </article>
             </div>

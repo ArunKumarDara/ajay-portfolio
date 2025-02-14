@@ -91,7 +91,7 @@ const Nav = () => {
                   duration={100}
                   style={{ cursor: "pointer" }}
                 >
-                  Skills
+                  Experience
                 </Link>
               </li>
               <li>
