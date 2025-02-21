@@ -1,9 +1,9 @@
 import arrow from "../assets/arrow.png";
 import ecommerce from "../assets/ecommerce.jpg";
-import shopping from "../assets/shopping.jpg";
 import saloon from "../assets/saloon.jpg";
 import hospital from "../assets/hospital.jpg";
 import { Link } from "react-scroll";
+import videoEdit from "../assets/videoEdit.jpg";
 
 const Projects = () => {
   return (
@@ -58,6 +58,30 @@ const Projects = () => {
           </div>
           <div className="details-container color-container">
             <div className="article-container">
+              <img src={videoEdit} alt="saloon" className="project-img" />
+            </div>
+            <h2 className="experience-sub-title project-title">
+              Graphic Design and Video Editing
+            </h2>
+            <div className="btn-container">
+              <a
+                href="https://drive.google.com/drive/folders/1-FMYZVl0N5EnGu64tbV-lSIJUHrgAjeh?usp=drive_link"
+                target="_blank"
+              >
+                <button className="btn btn-color-2 project-btn">Drive</button>
+              </a>
+              <a
+                href="https://drive.google.com/drive/folders/1-FMYZVl0N5EnGu64tbV-lSIJUHrgAjeh?usp=drive_link"
+                target="_blank"
+              >
+                <button className="btn btn-color-2 project-btn">
+                  Live Demo
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="details-container color-container">
+            <div className="article-container">
               <img
                 src={ecommerce}
                 alt="Html&Css-Project"
@@ -74,35 +98,6 @@ const Projects = () => {
               </a>
               <a
                 href="https://www.figma.com/file/Zh3tkZv1aOJBVDjq2cfKmx/Wireframe?type=design&node-id=0-1&mode=design"
-                target="_blank"
-              >
-                <button className="btn btn-color-2 project-btn">
-                  Live Demo
-                </button>
-              </a>
-            </div>
-          </div>
-          <div className="details-container color-container">
-            <div className="article-container">
-              <img
-                src={shopping}
-                alt="Javascript-Project"
-                className="project-img"
-              />
-            </div>
-            <h2 className="experience-sub-title project-title">
-              Shopping Influence
-            </h2>
-            <div className="btn-container">
-              <a
-                href="https://www.figma.com/file/B8Pji3SuRAMMfPvkPtbl6s/Fashion-Fluence?type=design&node-id=0-1&mode=design"
-                target="_blank"
-              >
-                <button className="btn btn-color-2 project-btn">Figma</button>
-              </a>
-
-              <a
-                href="https://www.figma.com/file/B8Pji3SuRAMMfPvkPtbl6s/Fashion-Fluence?type=design&node-id=0-1&mode=design"
                 target="_blank"
               >
                 <button className="btn btn-color-2 project-btn">

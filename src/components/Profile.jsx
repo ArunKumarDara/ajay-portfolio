@@ -1,6 +1,6 @@
 import linkedInImage from "../assets/linkedin.png";
 import profilePic from "../assets/profile-pic-3.jpg";
-import uiUxDev from "../assets/AjayKumarDaraUiUxResume.pdf";
+import uiUxDev from "../assets/AjayUiUxUpdated.pdf";
 
 import { Link } from "react-scroll";
 
